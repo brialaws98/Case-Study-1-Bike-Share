@@ -1,0 +1,32 @@
+## Count number of age in Q1 and Q4
+SELECT 
+  Age,
+  COUNT(*) AS age_count
+FROM `portfolio-project-397513.bike_share_analysis.Q1_2019`
+WHERE Age IS NOT NULL
+GROUP BY
+  Age
+
+## Group the age ranges as follows:
+  # ages 12-17 are "Adolescents"
+  # ages 18-24 are "Young Adults"
+  # ages 25-64 are "Adults"
+  # ages 65-120 are "Seniors"
+# According to the result:
+  # Adults ride the bikes more often
+SELECT 
+    CASE 
+        WHEN age BETWEEN 12 AND 17 THEN 'Adolescents'
+        WHEN age BETWEEN 18 AND 24 THEN 'Young Adults'
+        WHEN age BETWEEN 25 AND 64 THEN 'Adults'
+        WHEN age BETWEEN 65 AND 120 THEN 'Senior'
+    END AS age_group,
+    COUNT(*) AS count_in_age_group
+FROM `portfolio-project-397513.bike_share_analysis.Q1_2019`
+GROUP BY 
+    CASE 
+        WHEN age BETWEEN 12 AND 17 THEN 'Adolescents'
+        WHEN age BETWEEN 18 AND 24 THEN 'Young Adults'
+        WHEN age BETWEEN 25 AND 64 THEN 'Adults'
+        WHEN age BETWEEN 65 AND 120 THEN 'Senior'
+    END;
