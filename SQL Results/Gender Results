@@ -1,10 +1,23 @@
-## Count number of gender in Q1 
+## Count the number of gender in Q1 
   # Male (278,440) > Female (66,918)
-    # All together there are more Males bike riders than female bike riders
-      # This  result could affect advertisement in the future
+    # All together there are more Male bike riders than female bike riders
+      # This  result could affect advertisements in the future
 SELECT 
   gender,
   COUNT(*) AS usertype_count
 FROM `portfolio-project-397513.bike_share_analysis.Q1_2019`
 GROUP BY 
   gender
+
+## Combine the gender and customer type 
+  # Measure the amount of Males and Females who are either Subscribers
+  # Here are the results:
+    # Subscriber Male (274,380) > Subscriber Female (65,043)
+    # Customer Male (4,060) > Customer Female (1,875)
+
+SELECT 
+  CONCAT(usertype, " ", gender) AS cyclist_gender,
+  COUNT(*) AS usertype_count
+FROM `portfolio-project-397513.bike_share_analysis.Q1_2019`
+GROUP BY 
+  cyclist_gender
