@@ -1,0 +1,23 @@
+ # Include data needed for research
+  # Get rid of ride_length columns with NULL values
+  # Order by date
+# Combine the "from_station_id" and "from_station_name" and name the column
+# Combine the "to_station_id" and "to_station_name" and name the column
+
+SELECT
+  day_of_week,
+  date,
+  start_at,
+  end_at,
+  ride_length,
+  CONCAT(from_station_id," ",from_station_name) AS from_station,
+  CONCAT(to_station_id," ",to_station_name) AS destination_station,
+  gender,
+  Age
+
+FROM `portfolio-project-397513.bike_share_analysis.Q1_2019`
+
+WHERE 
+  ride_length IS NOT NULL
+
+ORDER BY date
