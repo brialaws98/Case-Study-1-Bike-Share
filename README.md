@@ -68,3 +68,6 @@
       * This could affect the advertisement in the future
 
 ## Act
+* ***Final thoughts based on analysis?***
+* ***How can my team and business apply these insights?***
+* ***Top 3 recommendations based on my analysis?***
