@@ -1,0 +1,6 @@
+# Count the total number of rows in Quarter 1 of 2019
+
+SELECT 
+  COUNT(*) AS Q1_row_numbers
+FROM
+  `portfolio-project-397513.bike_share_analysis.Q1_2019`
