@@ -1,0 +1,18 @@
+# Day of the week count in Q1
+    # Least to greatest:
+      # Subscrber: Sunday (19,055) -> Saturday (22,875) -> Monday (38,279) ->Wednsday (45,616) -> Tuesday (45,835) -> Friday(47,707) -> Thursday (50,425)
+      #Customer: Monday (447) -> Wednesday (483) -> Tuesday (629) -> Thursday (653) -> Friday (691) -> Sunday (811) -> Saturday (1,056)
+# According to the results:
+  # Subscribers ride the bikes more on Tuesdays, Thursdays, and Fridays
+  # Customers ride the bikes more on Fridays, Saturdays, and Sundays
+
+SELECT 
+  CONCAT(day_of_week, " | ", usertype) AS customer_of_the_week,
+  COUNT(*) AS week_count
+FROM `portfolio-project-397513.bike_share_analysis.Q1_2019`
+WHERE
+  day_of_week IS NOT NULL
+GROUP BY
+  customer_of_the_week
+ORDER BY
+ customer_of_the_week
