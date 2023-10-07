@@ -47,5 +47,24 @@
 
 ## 4. Analyze and Share
 * Use **BigQuery** to organize and sort data even further in each
+   * Identify the total number of rows
+   * Edit out columns that will not be used in the research
+   * Fix columns
+      * Edit out NULLs
+      * Made sure the *ride_length* column only includes numbers that are *greater than or equal to* 0
+    * Order the columns by *date*
+* What have I found with this analysis
+   * More *Subscribers* and *Customers* use the bikes on Thursday
+      * Why is that the case?
+      * Is there a special deal for Thursdays
+   * Which genders use the bikes more
+     * Majority of males for * Subscribers* and *Customers*
+     * There are more *Subscribers* than there are *Customer* members
+* Questions that the Tableau dashboard can answer
+   * The *ride_length* of each day of the week
+   * Which membership do customers favor more?
+      * *Subscribers* or *Customers*
+   * What is the *age* and *gender* of majority of CYclists?
+      * This could affect the advertisement in the future
 
 ## Act
