@@ -1,4 +1,4 @@
-# Case-Study-1-Bike-Share
+# Case-Study-1-Bike-Share Analysis
 ## 1. Ask
 * ***Business Task***
   * The ***director of marketing*** *(Lily Moreno)* wants to maximize the number of annual memberships
