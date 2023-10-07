@@ -8,7 +8,7 @@ SELECT
 FROM `portfolio-project-397513.bike_share_analysis.Q1_2019`
 GROUP BY 
   gender
-
+------------------------------------------------------------------------------
 ## Combine the gender and customer type 
   # Measure the amount of Males and Females who are either Subscribers
   # Here are the results:
