@@ -1,22 +1,32 @@
 # Case-Study-1-Bike-Share Analysis
 ## 1. Ask
 * ***Business Task***
-  * The ***director of marketing*** *(Lily Moreno)* wants to maximize the number of annual memberships
-      * Assigned question to be answered: *How do annual members and casual riders use Cyclistic bikes differently?*
-      * Believes that maximizing the number of annual members will be key to future growth
-  * ***My team*** *(Cyclistsic marketing team)*
-      * Wants to understand how casual riders and annual members use Cyclistic bikes differently
-      * Will design a new marketing strategy to convert casual riders into annual members
-  * ***Cyclistic executives***
-      * Must approve of recommendations
-      * Back findings with compelling data insights and professional data visualizations ***Key tasks***
+ * ***Characters and teams***
+    * ***Cyclistic:***
+       * A bike-share program that features more than *5,800 bicycles* and *600 docking stations*
+       * Sets itself apart by offering reclining bikes, hand tricycles, and cargo bikes
+          * Make bike-share more inclusive to people with disabilities and riders who can't use a standard two-wheeled bike
+       * The majority of riders opt for traditional bikes
+          * About 8% of riders use the assistive options
+       *  More likely to ride for leisure
+          * About 30% use them to commute to work each day
+    * The ***director of marketing*** *(Lily Moreno)*
+      * wants to maximize the number of annual memberships
+       * Assigned question to be answered: *How do annual members and casual riders use Cyclistic bikes differently?*
+        * Believes that maximizing the number of annual members will be key to future growth
+    * ***My team*** *(Cyclistsic marketing team)*
+        * Wants to understand how casual riders and annual members use Cyclistic bikes differently
+        * Will design a new marketing strategy to convert casual riders into annual members
+    * ***Cyclistic executives***
+        * Must approve of recommendations
+        * Back findings with compelling data insights and professional data visualizations ***Key tasks***
 * **Identify the business task**
-    * Maximize number of annual members
+    * Maximize the number of annual members
     * How annual members and casual members use Cyclistic differently
 * **Consider key stakeholders**
     * The ***Cyclist executives*** are the main stakeholders
 * ***Clear Statement of the business task***
-    *The main goal is to optimize annual membership acquisition of Cyclistic. We aim to understand usage patterns among annual and casual members, exploring how they use the services differently. The key decision-makers in this effort are the **Cyclistic executive**.*
+    *The main goal is to optimize the annual membership acquisition of Cyclistic. We aim to understand usage patterns among annual and casual members, exploring how they use the services differently. The key decision-makers in this effort are the **Cyclistic executive**.*
 
 ## 2. Prepare
 * ***Data Information***
