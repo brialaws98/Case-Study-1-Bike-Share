@@ -31,10 +31,21 @@
 
 ## 3. Process
 * ***Errors***
+   * *dates* are not in order
 * ***Tools***
+   * BigQuery for ***SQL***
+      * Get rid of data with NULLs in the *gender* column
+      * Order dates
+   * Google sheets for ***Excel***
+      * Separate the *TIMESTAMP* column into *date*, *start_at*, *end_at*, and *day_of_week* columns
+   * Tableau for ***data visualizations***
 * ***Cleaning Process***
+   * Use BiqQuery to:
+      * Get rid of the rows where the *gender* columns are NULL
+         * Dataset was too large for Google Sheets so I used BigQuery to get rid of the NULLs in the *gender* section so that the code could then be extracted into Google Sheets
+     * Once this was done I was able to export the new CSV file to Google Sheets to organize the data further
 
 ## 4. Analyze and Share
-* Use **BigQuery** to orgnaize and sort data even further in each
+* Use **BigQuery** to organize and sort data even further in each
 
 ## Act
