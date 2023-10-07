@@ -15,7 +15,7 @@
        * Assigned question to be answered: *How do annual members and casual riders use Cyclistic bikes differently?*
         * Believes that maximizing the number of annual members will be key to future growth
     * ***My team*** *(Cyclistsic marketing team)*
-        * Wants to understand how casual riders and annual members use Cyclistic bikes differently
+        * Wants to understand how casual riders *(Customers)* and annual members *(Subscribers)* use Cyclistic bikes differently
         * Will design a new marketing strategy to convert casual riders into annual members
     * ***Cyclistic executives***
         * Must approve of recommendations
@@ -79,5 +79,30 @@
 
 ## Act
 * ***Final thoughts based on analysis?***
+     * I see that there is a large number of adults that are male that ride the the cycles daily
+     * The fact that this company offers many alternatives can be what adds to its success
+     * The gender and age of *annual members ***(Subscriber)**** and *casual riders***(casual riders)**** can affect the advertisement in the future
 * ***How can my team and business apply these insights?***
+     * The goal reminder:
+          * Maximize the number of annual members
+          * Understand patterns to understand how the service is used differently
+     * What are the insights:
+          * There are more male and female annual riders than there are for casual riders
+          * A majority of these riders are Adults
+               * Could be due to a majority of riders using the services to get to work
+          * The top three days people use this service are Tuesdays, Thursdays, and Fridays
 * ***Top 3 recommendations based on my analysis?***
+     1. ***Targeted Advertisement Strategy***
+           * Based on the observation that a large number of adults, particularly males, ride the cycles daily and the majority of annual riders are adults, focus your advertising efforts on targeting adult audiences
+           * Consider tailoring advertisements specifically towards the weekdays, particularly Tuesdays, Thursdays, and Fridays
+                * Aligns with the top usage days
+           * Highlight the convenience of using the service for daily commuting
+                *Could potentially attract more annual memberships from this demographic
+     2. ***Customized Membership Offers***
+           * Leverage the fact that there are more male and female annual members compared to casual riders by offering special promotions or discounted annual membership rates for adults
+           * Offer tailored membership packages that cater to the commuting needs of this demographic
+           * Present data-driven incentives to encourage casual riders to convert to annual memberships, emphasizing the cost-effectiveness and convenience of long-term membership
+  3. ***Engagement and Feedback Loop***
+        * Establish a feedback with existing annual members
+        * Conduct surveys to understand usage patterns and preferences
+        * Utilize feedback to refine the service and engage with members effectively
