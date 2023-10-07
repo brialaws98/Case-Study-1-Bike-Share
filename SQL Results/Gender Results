@@ -1,0 +1,10 @@
+## Count number of gender in Q1 
+  # Male (278,440) > Female (66,918)
+    # All together there are more Males bike riders than female bike riders
+      # This  result could affect advertisement in the future
+SELECT 
+  gender,
+  COUNT(*) AS usertype_count
+FROM `portfolio-project-397513.bike_share_analysis.Q1_2019`
+GROUP BY 
+  gender
