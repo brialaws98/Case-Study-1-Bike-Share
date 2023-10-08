@@ -40,8 +40,6 @@
     * Every user has a unique *tripID*
 
 ## 3. Process
-* ***Errors***
-   * *dates* are not in order
 * ***Tools***
    * BigQuery for ***SQL***
       * Get rid of data with NULLs in the *gender* column
@@ -68,13 +66,13 @@
       * Why is that the case?
       * Is there a special deal for Thursdays
    * Which genders use the bikes more
-     * Majority of males for * Subscribers* and *Customers*
+     * Majority of males for *Subscribers* and *Customers*
      * There are more *Subscribers* than there are *Customer* members
 * Questions that the Tableau dashboard can answer
    * The *ride_length* of each day of the week
    * Which membership do customers favor more?
       * *Subscribers* or *Customers*
-   * What is the *age* and *gender* of majority of CYclists?
+   * What is the *age* and *gender* of majority of Cyclists?
       * This could affect the advertisement in the future
 
 ## Act
