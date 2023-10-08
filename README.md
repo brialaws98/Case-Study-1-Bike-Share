@@ -1,6 +1,6 @@
 # Case-Study-1-Bike-Share Analysis
 ## 1. Ask
-* ***Business Task***
+#### Business Task
  * ***Characters and teams***
     * ***Cyclistic:***
        * A bike-share program that features more than *5,800 bicycles* and *600 docking stations*
@@ -26,7 +26,7 @@
 * **Consider key stakeholders**
     * The ***Cyclist executives*** are the main stakeholders
 * ***Clear Statement of the business task***
-    *The main goal is to optimize the annual membership acquisition of Cyclistic. We aim to understand usage patterns among annual and casual members, exploring how they use the services differently. The key decision-makers in this effort are the **Cyclistic executive**.*
+    * The main goal is to optimize the annual membership acquisition of Cyclistic. We aim to understand usage patterns among annual and casual members, exploring how they use the services differently. The key decision-makers in this effort are the **Cyclistic executive**.
 
 ## 2. Prepare
 * ***Data Information***
