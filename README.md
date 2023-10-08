@@ -79,7 +79,7 @@
 * ***Final thoughts based on analysis?***
      * I see that there is a large number of adults that are male that ride the the cycles daily
      * The fact that this company offers many alternatives can be what adds to its success
-     * The gender and age of *annual members ***(Subscriber)**** and *casual riders***(casual riders)**** can affect the advertisement in the future
+     * The gender and age of *annual members* ***(Subscriber)*** and *casual riders* ***(Customer)*** can affect the advertisement in the future
 * ***How can my team and business apply these insights?***
      * The goal reminder:
           * Maximize the number of annual members
