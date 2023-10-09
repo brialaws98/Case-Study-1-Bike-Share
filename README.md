@@ -95,7 +95,7 @@
            * Consider tailoring advertisements specifically towards the weekdays, particularly Tuesdays, Thursdays, and Fridays
                 * Aligns with the top usage days
            * Highlight the convenience of using the service for daily commuting
-                *Could potentially attract more annual memberships from this demographic
+                * Could potentially attract more annual memberships from this demographic
      2. ***Customized Membership Offers***
            * Leverage the fact that there are more male and female annual members compared to casual riders by offering special promotions or discounted annual membership rates for adults
            * Offer tailored membership packages that cater to the commuting needs of this demographic
